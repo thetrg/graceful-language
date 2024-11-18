@@ -1,0 +1,33 @@
+{
+  "name": "@graceful-language/core",
+  "version": "0.5.0",
+  "description": "A simple dynamic programming language",
+  "main": "index.js",
+  "keywords": [
+    "graceful",
+    "dynamic",
+    "language",
+    "programming",
+    "scripting"
+  ],
+  "author": "The TRG, LLC",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "symlink": "pnpm link --global @thetrg/tm-behave",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@material/web": "^2.2.0",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "get-value": "^3.0.1",
+    "set-value": "^4.1.0"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inconsolata": "^5.1.0",
+    "codejar": "^4.2.0",
+    "less": "^4.2.0",
+    "microdiff": "^1.4.0"
+  }
+}

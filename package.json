@@ -1,6 +1,6 @@
 {
   "name": "@graceful-language/core",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A simple dynamic programming language",
   "main": "index.js",
   "keywords": [
@@ -17,6 +17,10 @@
     "dev": "npx vite",
     "symlink": "pnpm link --global @thetrg/tm-behave",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thetrg/graceful-language.git"
   },
   "dependencies": {
     "@material/web": "^2.2.0",
